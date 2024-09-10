@@ -37,8 +37,9 @@
   }
   
   .input-container {
+    /* vertically aligns inputs */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
   }
   
   button {
@@ -69,6 +70,7 @@
     text-align: center;
   }
   
+  /* doesn't show content until script.js runs */
   .hide {
     display: none;
   }
